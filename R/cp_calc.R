@@ -78,6 +78,8 @@ cp_plot <- data_plot %>%
    theme(plot.title = element_text(hjust = 0.5)) +
    annotate("text", x = (coeff_cp-40), y = 1250, label = glue("CP = {round(coeff_cp, digits=0)} W"))
 }
-plot_cp(.data, power_column, time_column)
-ggsave("cp1.png", last_plot(), path = "C:\Users\Aitor\Downloads\website\R", dpi = 500)
+save_plot <- function() {
+  plot_cp(.data, power_column, time_column)
+  ggsave("cp1.png", last_plot(), dpi = 500)
+}
 
