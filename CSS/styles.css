@@ -130,33 +130,21 @@ a:active {
 }
 
 .btn {
-  background: #66BFBF;
-  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
   font-family: Arial;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 15px;
+  background: #66BFBF;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  margin-bottom: 150px;
 }
 
 .btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  background: #30e3cb;
   text-decoration: none;
 }
-
 ul {
           list-style-type: none;
           margin: 0;
